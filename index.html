@@ -8,10 +8,16 @@
     <title>The Art of WItchcraft and Wizadry</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap" rel="stylesheet">
+    
+    <!-- EFFECTS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <body>
+        <!-- LANDING -->
         <div id="landingpage">
             <nav>
                 <span class="home">Home</span>
@@ -45,14 +51,15 @@
         </div>
         <!-- end of landing div -->
 
+        <!-- BLOG -->
         <div id="blog">
             <div class="darkenbg"></div>
             <div class="container">
-                <div class="lhs">
+                <div data-aos="fade-up" class="lhs">
                     <p class="tag">Exciting blogs to guide you through Hogwarts and to learn more about your favourite fandom..</p>
                     <span class="link">Blogs</span>
                 </div>
-                <div class="rhs">
+                <div data-aos="fade-up" class="rhs">
                     <img class="blogleft" src="./Images/Harry Potter half blood prince.jpg" alt="">
                     <img class="blogright" src="./Images/Harry Potter order of phoneix.jfif" alt="">
                     <img class="blogmiddle" src="./Images/Harry Potter Philosopher's stone.jpg" alt="">
@@ -61,10 +68,11 @@
         </div>
         <!-- end of blog div -->
 
+        <!-- QUOTES -->
         <div id="quotes">
             <div class="darkenbg"></div>
             <div class="container">
-                <div class="lhs"> 
+                <div data-aos="fade-up" class="lhs"> 
                     <div>
                         <img src="./Images/hermione granger.png" alt=""> 
                         <span class="white">Fear of the name only increases fear of the thing itself.</span>
@@ -79,7 +87,7 @@
                     </div>
                 </div>
                 <!-- end of quotes lhs div -->
-                <div class="rhs">
+                <div data-aos="fade-up" class="rhs">
                     <p class="tag">Quotes to light up your days inspiring you to be more magical and mysterious..</p>
                     <span class="link">Quotes</span>
                 </div>
@@ -88,14 +96,15 @@
         </div>
         <!-- end of quotes div -->
 
+        <!-- SORT -->
         <div id="sort">
             <div class="darkenbg"></div>
             <div class="container">
-                <div class="lhs">
+                <div data-aos="fade-up" class="lhs">
                     <p class="tag">The Sorting Hat is waiting ! <br> Find your house and members to have adventures together ..</p>
                     <span class="link">Get Sorted</span>
                 </div>
-                <div class="rhs">
+                <div data-aos="fade-up" class="rhs">
                     <div>
                         <img id="topleft" src="./Images/houses top left.png" alt="">
                         <img id="bottomleft" src="./Images/houses bottom left.png" alt="">
@@ -110,9 +119,10 @@
         </div>  
         <!--end of sort div -->
         
+        <!-- SHOP -->
         <div id="shop">
             <div class="darkenbg"></div>
-            <header>
+            <header data-aos="fade-up">
                 <div class="container">
                     <div class="lhs">
                         <img class="potions" src="./Images/goodies no bg.png" alt="">
@@ -124,9 +134,9 @@
                 </div>
                 <!-- end of header container div -->
             </header>
-            <footer>
+            <footer data-aos="fade-up">
                 <div class="container">
-                    <div class="lhs">
+                    <div data-aos="fade-up" class="lhs">
                         <div class="top">
                             <!-- <img src="./Images/The art of witchcraft and wizardry.png" alt=""> -->
                             <img class="mobile" src="./Images/The art of witchcraft and wizardry mobile.png" alt="">
@@ -151,6 +161,11 @@
             </footer>
         </div>
         <!-- end of shop div -->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+          </body>
     </body>
 
 </html>
