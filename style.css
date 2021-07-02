@@ -181,42 +181,6 @@ html {
     border: 3px solid #F4D35E;
 }
 
-/* #sort .rhs{
-    width: 40vw;
-    height: 80vh;
-} */
-
-/* Grid CSS */
-/*
-#sort>.rhs{
-    display: grid;
-    grid-template-columns: repeat(9,1fr);
-    grid-template-rows: repeat(8,1fr);
-    height: 70vh;
-    width: 40vw;
-}
-#sort .rhs #topleft {
-    grid-column: 1/3;
-    grid-row: 1/3;
-}
-#sort .rhs #topright {
-    grid-column: 7/9;
-    grid-row: 1/3;
-}
-#sort .rhs #bottomleft {
-    grid-column: 1/3;
-    grid-row: 6/8;
-}
-#sort .rhs #bottomright {
-    grid-column: 7/9;
-    grid-row: 6/8;
-}
- #sort .rhs #together {
-    width: 65%;
-    grid-column: 2/8;
-    grid-row: 2/7;
-} */
-
 #sort>.rhs{
     display: flex;
     width: 40vw;
@@ -255,7 +219,7 @@ html {
 #shop footer .top{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 25vh;
 }
@@ -408,14 +372,17 @@ footer .menu{
         height: 30vh;
     }
     #shop footer .container .lhs .mobile{
-        width: 70vw;
+        width: 85vw;
         height: auto;
     }
     #shop footer .container .lhs .top span{
-        width: 50vw;
+        width: 70vw;
         font-size: small;
         justify-self: center;
         line-height: 3vh;
+    }
+    #shop footer .top{
+        height: 20vh;
     }
     #shop footer .menu{
         flex-direction: column;
@@ -465,4 +432,3 @@ footer .menu{
         justify-content: space-between;
     }
 }
-
