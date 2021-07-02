@@ -219,7 +219,7 @@ html {
 #shop footer .top{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 25vh;
 }
@@ -383,6 +383,7 @@ footer .menu{
     }
     #shop footer .top{
         height: 20vh;
+        justify-content: space-between;
     }
     #shop footer .menu{
         flex-direction: column;
